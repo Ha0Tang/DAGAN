@@ -7,7 +7,7 @@
 ## Framework
 <img src='./imgs/method.jpg' width=1200>
 
-## Results
+## Results of Generated Images
 
 ### Cityscapes (512×256)
 <img src='./imgs/city_results.jpg' width=1200>
