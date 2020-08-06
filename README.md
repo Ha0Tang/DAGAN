@@ -12,17 +12,11 @@
 ### Cityscapes (512×256)
 <img src='./imgs/city_results.jpg' width=1200>
 
-<br>
-
 ### Facades (1024×1024)
 <img src='./imgs/facades_results.jpg' width=1200>
 
-<br>
-
 ### ADE20K (256×256)
 <img src='./imgs/ade_results.jpg' width=1200>
-
-<br>
 
 ### CelebAMask-HQ (512×512)
 <img src='./imgs/celeba_results.jpg' width=1200>
