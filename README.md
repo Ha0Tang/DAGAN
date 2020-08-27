@@ -1,5 +1,5 @@
 [![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/DAGAN/blob/master/LICENSE.md)
-![Python 3.6](https://img.shields.io/badge/python-3.6.9-green.svg)
+![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 ![Packagist](https://img.shields.io/badge/Pytorch-1.0.0-red.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/Ha0Tang/DAGAN)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/DAGAN/graphs/commit-activity))
@@ -7,7 +7,7 @@
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 ## Contents
-  - [DAGAN](#DAGAN)
+  - [DAGAN](#Semantic-Image-Synthesis-with-DAGAN)
   - [Installation](#Installation)
   - [Dataset Preparation](#Dataset-Preparation)
   - [Generating Images Using Pretrained Model](#Generating-Images-Using-Pretrained-Model)
@@ -18,7 +18,7 @@
   - [Citation](#Citation)
   - [Contributions](#Contributions)
 
-## DAGAN
+## Semantic Image Synthesis with DAGAN
 
 **Dual Attention GANs for Semantic Image Synthesis (Coming Soon!)**  
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Song Bai](http://songbai.site/)<sup>2</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>13</sup>. <br> 
@@ -59,6 +59,27 @@ Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-
 The code is released for academic research use only. For commercial use, please contact [hao.tang@unitn.it](hao.tang@unitn.it).
 
 ## Installation
+
+Clone this repo.
+```bash
+git clone https://github.com/Ha0Tang/DAGAN
+cd DAGAN/
+```
+
+This code requires PyTorch 1.0 and python 3+. Please install dependencies by
+```bash
+pip install -r requirements.txt
+```
+
+This code also requires the Synchronized-BatchNorm-PyTorch rep.
+```
+cd models/networks/
+git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
+cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
+cd ../../
+```
+
+To reproduce the results reported in the paper, you would need an NVIDIA DGX1 machine with 8 V100 GPUs.
 
 ## Dataset Preparation
 
