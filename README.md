@@ -89,7 +89,7 @@ For Facades, CelebAMask-HQ, Cityscapes or ADE20K, the datasets must be downloade
 - Cityscapes: [here](https://www.cityscapes-dataset.com/).
 - ADE20K: [here](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip).
 
-For Cityscapes or ADE20K, please refer to [GauGAN](https://github.com/NVlabs/SPADE) for more details.
+For Cityscapes and ADE20K, please refer to [GauGAN](https://github.com/NVlabs/SPADE) for more details.
 
 ## Generating Images Using Pretrained Model
 Once the dataset is ready, the result images can be generated using pretrained models.
