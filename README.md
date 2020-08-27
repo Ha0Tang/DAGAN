@@ -41,7 +41,7 @@
 #### CelebAMask-HQ (512×512)
 <img src='./imgs/celeba_results.jpg' width=1200>
 
-#### Results of Generated Segmenation Maps
+### Results of Generated Segmenation Maps
 
 <img src='./imgs/seg.jpg' width=1200>
 
