@@ -21,8 +21,12 @@
 ## DAGAN
 
 **Dual Attention GANs for Semantic Image Synthesis (Coming Soon!)**  
-[Hao Tang](http://disi.unitn.it/~hao.tang/), [Song Bai](http://songbai.site/), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en).
+[Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Song Bai](http://songbai.site/)<sup>2</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>13</sup>. <br> 
+<sup>1</sup>University of Trento, Italy, <sup>2</sup>University of Oxford, UK, <sup>3</sup>Huawei Research Ireland, Ireland.<br>
 <br>In [ACM MM 2020](https://2020.acmmm.org/).
+The repository offers the official implementation of our paper in PyTorch.
+
+Also see our CVPR 2020 paper [Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation](https://github.com/Ha0Tang/LGGAN).
 
 ### Framework
 <img src='./imgs/method.jpg' width=1200>
