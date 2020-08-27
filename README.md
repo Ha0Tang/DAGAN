@@ -140,11 +140,11 @@ python test.py --name [name_of_experiment] --dataset_mode [dataset_mode] --datar
 Use `--results_dir` to specify the output directory. `--how_many` will specify the maximum number of images to generate. By default, it loads the latest checkpoint. It can be changed using `--which_epoch`.
 
 ## Evaluation
-- [FID]: [mseitzer/pytorch-fid](https://github.com/mseitzer/pytorch-fid)
-- [FRD]: [Ha0Tang/GestureGAN](https://github.com/Ha0Tang/GestureGAN/tree/master/scripts/evaluation/FRD)
-- [LPIPS]: [richzhang/PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity)
-- [DRN]: [fyu/drn](https://github.com/fyu/drn)
-- [UperNet]: [CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
+- FID: [mseitzer/pytorch-fid](https://github.com/mseitzer/pytorch-fid)
+- FRD: [Ha0Tang/GestureGAN](https://github.com/Ha0Tang/GestureGAN/tree/master/scripts/evaluation/FRD)
+- LPIPS: [richzhang/PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity)
+- DRN: [fyu/drn](https://github.com/fyu/drn)
+- UperNet: [CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 
 ## Acknowledgments
 This code borrows heavily from [GauGAN/SPADE](https://github.com/NVlabs/SPADE).
