@@ -73,6 +73,7 @@ pip install -r requirements.txt
 
 This code also requires the Synchronized-BatchNorm-PyTorch rep.
 ```
+cd GauGAN_DAGAN/
 cd models/networks/
 git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
 cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
@@ -82,14 +83,15 @@ cd ../../
 To reproduce the results reported in the paper, you would need an NVIDIA DGX1 machine with 8 V100 GPUs.
 
 ## Dataset Preparation
-
-For Facades, CelebAMask-HQ, Cityscapes or ADE20K, the datasets must be downloaded beforehand. Please download them on the respective webpages. In the case of COCO-stuff, we put a few sample images in this code repo.
+Please download the datasets on the respective webpages. 
 - Facades: [here](http://cmp.felk.cvut.cz/~tylecr1/facade/).
+- Deepfashion: [here](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html).
 - CelebAMask-HQ: [here](https://github.com/switchablenorms/CelebAMask-HQ).
 - Cityscapes: [here](https://www.cityscapes-dataset.com/).
 - ADE20K: [here](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip).
+- COCO-Stuf: [here](https://github.com/nightrome/cocostuff)
 
-For Cityscapes and ADE20K, please refer to [GauGAN](https://github.com/NVlabs/SPADE) for more details.
+For Cityscapes, ADE20K, and COCO-Stuf, please refer to [GauGAN](https://github.com/NVlabs/SPADE) for more details.
 
 ## Generating Images Using Pretrained Model
 Once the dataset is ready, the result images can be generated using pretrained models.
