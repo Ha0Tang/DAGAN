@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 This code also requires the Synchronized-BatchNorm-PyTorch rep.
 ```
-cd GauGAN_DAGAN/
+cd DAGAN_v1/
 cd models/networks/
 git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
 cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
@@ -100,7 +100,7 @@ sh datasets/download_dagan_dataset.sh [dataset]
 where `[dataset]` can be one of `facades`, `deepfashion` or `celeba`.
 
 ## Generating Images Using Pretrained Model
-1. Download the pretrained models using the following script, and save it in 'GauGAN_DAGAN/checkpoints/'.
+1. Download the pretrained models using the following script, and save it in 'DAGAN_v1/checkpoints/'.
 ```
 sh scripts/download_dagan_model.sh [dataset]
 ```
