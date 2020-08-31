@@ -97,7 +97,7 @@ We also provide the prepared datasets for convience.
 ```
 sh datasets/download_dagan_dataset.sh [dataset]
 ```
-where `[dataset]` can be one of `facades` ...
+where `[dataset]` can be one of `facades`, `deepfashion` or `celeba`.
 
 ## Generating Images Using Pretrained Model
 Once the dataset is ready, the result images can be generated using pretrained models.
