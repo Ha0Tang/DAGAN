@@ -1,0 +1,1 @@
+python test.py --name GauGAN_DAGAN_celeba --dataset_mode custom --label_dir ./datasets/celeba/labels/test_label --label_nc 19 --no_instance --image_dir ./datasets/celeba/images/test_img --gpu_ids 0 --results_dir ./results --checkpoints_dir ./checkpoints --batchSize 1 --which_epoch 100;
