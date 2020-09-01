@@ -7,7 +7,7 @@
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 ## Contents
-  - [DAGAN](#Semantic-Image-Synthesis-with-DAGAN)
+  - [Semantic Image Synthesis with DAGAN](#Semantic-Image-Synthesis-with-DAGAN)
   - [Installation](#Installation)
   - [Dataset Preparation](#Dataset-Preparation)
   - [Generating Images Using Pretrained Model](#Generating-Images-Using-Pretrained-Model)
@@ -20,7 +20,7 @@
 
 ## Semantic Image Synthesis with DAGAN
 
-**Dual Attention GANs for Semantic Image Synthesis (Coming Soon!)**  
+**[Dual Attention GANs for Semantic Image Synthesis](https://arxiv.org/abs/2008.13024)**  
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Song Bai](http://songbai.site/)<sup>2</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>13</sup>. <br> 
 <sup>1</sup>University of Trento, Italy, <sup>2</sup>University of Oxford, UK, <sup>3</sup>Huawei Research Ireland, Ireland. <br>
 In [ACM MM 2020](https://2020.acmmm.org/). <br>
