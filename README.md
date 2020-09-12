@@ -133,6 +133,16 @@ This code borrows heavily from [GauGAN/SPADE](https://github.com/NVlabs/SPADE).
 ## Citation
 If you use this code for your research, please cite our papers.
 
+DAGAN
+```
+@ inproceedings{tang2020dual,
+  title={Dual Attention GANs for Semantic Image Synthesis},
+  author={Tang, Hao and Bai, Song and Sebe, Nicu},
+  booktitle ={ACM MM},
+  year={2020}
+}
+```
+
 EdgeGAN
 ```
 @article{tang2020edge,
