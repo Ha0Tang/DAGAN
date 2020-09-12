@@ -100,7 +100,7 @@ sh datasets/download_dagan_dataset.sh [dataset]
 where `[dataset]` can be one of `facades`, `deepfashion` or `celeba`.
 
 ## Generating Images Using Pretrained Model
-1. Download the pretrained models using the following script, and save it in `DAGAN_v1/checkpoints/`.
+1. Download the pretrained models using the following script,
 ```
 sh scripts/download_dagan_model.sh GauGAN_DAGAN_[dataset]
 ```
