@@ -84,16 +84,16 @@ To reproduce the results reported in the paper, you would need an NVIDIA DGX1 ma
 
 ## Dataset Preparation
 Please download the datasets on the respective webpages. 
-- Facades: [here](http://cmp.felk.cvut.cz/~tylecr1/facade/).
-- DeepFashion: [here](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html).
-- CelebAMask-HQ: [here](https://github.com/switchablenorms/CelebAMask-HQ).
+- Facades: 56M, [here](http://cmp.felk.cvut.cz/~tylecr1/facade/).
+- DeepFashion: 592M, [here](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html).
+- CelebAMask-HQ: 2.7G, [here](https://github.com/switchablenorms/CelebAMask-HQ).
 - Cityscapes: [here](https://www.cityscapes-dataset.com/).
 - ADE20K: [here](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip).
 - COCO-Stuf: [here](https://github.com/nightrome/cocostuff)
 
 For Cityscapes, ADE20K, and COCO-Stuf, please refer to [GauGAN](https://github.com/NVlabs/SPADE) for more details.
 
-We also provide the prepared datasets for convience.
+We also provide the prepared other 3 datasets for your convience.
 ```
 sh datasets/download_dagan_dataset.sh [dataset]
 ```
