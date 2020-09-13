@@ -121,6 +121,7 @@ There are many options you can specify. To specify the number of GPUs to utilize
 - LPIPS: [richzhang/PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity)
 - DRN: [fyu/drn](https://github.com/fyu/drn) [model: drn-d-105_ms_cityscapes.pth]
 - UperNet: [CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch) [model: baseline-resnet101-upernet]
+- DeepLab: [kazuto1011/deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch) [model: deeplabv2_resnet101_msc-cocostuff164k-100000.pth]
 
 For more details, please refer to [this issue](https://github.com/NVlabs/SPADE/issues/39).
 
