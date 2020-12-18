@@ -124,7 +124,7 @@ There are many options you can specify. To specify the number of GPUs to utilize
 For more details, please refer to [this issue](https://github.com/NVlabs/SPADE/issues/39).
 
 ## Acknowledgments
-This code borrows heavily from [GauGAN/SPADE](https://github.com/NVlabs/SPADE).
+This source code is inspired by both [GauGAN/SPADE](https://github.com/NVlabs/SPADE) and [LGGAN](https://github.com/Ha0Tang/LGGAN).
 
 ## Related Projects
 **[EdgeGAN](https://github.com/Ha0Tang/EdgeGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
