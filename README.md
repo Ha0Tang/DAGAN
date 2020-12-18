@@ -87,15 +87,15 @@ Please download the datasets on the respective webpages.
 - Facades: 55.8M, [here](http://cmp.felk.cvut.cz/~tylecr1/facade/).
 - DeepFashion: 592.3M, [here](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html).
 - CelebAMask-HQ: 2.7G, [here](https://github.com/switchablenorms/CelebAMask-HQ).
-- Cityscapes: [here](https://www.cityscapes-dataset.com/).
-- ADE20K: [here](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip).
-- COCO-Stuff: [here](https://github.com/nightrome/cocostuff)
+- Cityscapes: 8.4G, [here](https://www.cityscapes-dataset.com/).
+- ADE20K: 953.7M, [here](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip).
+- COCO-Stuff: 21.5G, [here](https://github.com/nightrome/cocostuff)
 
 We also provide the prepared datasets for your convience.
 ```
 sh datasets/download_dagan_dataset.sh [dataset]
 ```
-where `[dataset]` can be one of `facades`, `deepfashion`, `celeba`, `cityscapes`, `ade20k`, or `coco`.
+where `[dataset]` can be one of `facades`, `deepfashion`, `celeba`, `cityscapes`, `ade20k`, or `coco_stuff`.
 
 ## Generating Images Using Pretrained Model
 1. Download the pretrained models using the following script,
