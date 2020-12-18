@@ -89,7 +89,7 @@ Please download the datasets on the respective webpages.
 - CelebAMask-HQ: 2.7G, [here](https://github.com/switchablenorms/CelebAMask-HQ).
 - Cityscapes: 8.4G, [here](https://www.cityscapes-dataset.com/).
 - ADE20K: 953.7M, [here](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip).
-- COCO-Stuff: 21.5G, [here](https://github.com/nightrome/cocostuff)
+- COCO-Stuff: 21.5G, [here](https://github.com/nightrome/cocostuff).
 
 We also provide the prepared datasets for your convience.
 ```
