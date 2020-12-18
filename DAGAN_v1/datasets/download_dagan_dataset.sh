@@ -1,7 +1,7 @@
 FILE=$1
 
-if [[ $FILE != "facades" && $FILE != "deepfashion" && $FILE != "celeba" ]]; 
-	then echo "Available datasets are facades, deepfashion, celeba"
+if [[ $FILE != "facades" && $FILE != "deepfashion" && $FILE != "celeba" && $FILE != "ade20k" ]]; 
+	then echo "Available datasets are facades, deepfashion, celeba, ade20k"
 	exit 1
 fi
 
