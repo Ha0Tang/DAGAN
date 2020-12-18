@@ -91,13 +91,11 @@ Please download the datasets on the respective webpages.
 - ADE20K: [here](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip).
 - COCO-Stuff: [here](https://github.com/nightrome/cocostuff)
 
-For Cityscapes, ADE20K, and COCO-Stuff, please refer to [GauGAN](https://github.com/NVlabs/SPADE) for more details.
-
-We also provide the prepared other 3 datasets for your convience.
+We also provide the prepared datasets for your convience.
 ```
 sh datasets/download_dagan_dataset.sh [dataset]
 ```
-where `[dataset]` can be one of `facades`, `deepfashion` or `celeba`.
+where `[dataset]` can be one of `facades`, `deepfashion`, `celeba`, `cityscapes`, `ade20k`, or `coco`.
 
 ## Generating Images Using Pretrained Model
 1. Download the pretrained models using the following script,
