@@ -98,6 +98,9 @@ sh datasets/download_dagan_dataset.sh [dataset]
 where `[dataset]` can be one of `facades`, `deepfashion`, `celeba`, `cityscapes`, `ade20k`, or `coco_stuff`.
 
 ## Generating Images Using Pretrained Model
+
+Pretrained DAGAN models can be run using the Docker image hosted on the Replicate registry: https://beta.replicate.ai/Ha0Tang/DAGAN_v1. Below are instructions for how to run the model without Docker:
+
 1. Download the pretrained models using the following script,
 ```
 sh scripts/download_dagan_model.sh GauGAN_DAGAN_[dataset]
