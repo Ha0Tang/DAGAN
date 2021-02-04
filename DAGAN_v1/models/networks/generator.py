@@ -100,8 +100,8 @@ class SPADEGenerator(BaseNetwork):
         self.conv_img = nn.Conv2d(final_nc, 3, 3, padding=1)
         self.conv_64 = nn.Conv2d(128, 64, 3, padding=1)
         self.up = nn.Upsample(scale_factor=2)
-        
-        self.channelAtt = ChannelAttention(128,64)
+
+        self.cab = ChannelAttention(128,64)
         self.spatialAtt = SpatialAttention()
 
     def compute_latent_vector_size(self, opt):
@@ -161,8 +161,8 @@ class SPADEGenerator(BaseNetwork):
         if self.opt.num_upsampling_layers == 'most':
             x = self.up(x)
             x = self.up_4(x, seg)
-        
-        x_channel = self.channelAtt([x_tmp,x])
+
+        x_channel = self.cab([x_tmp,x])
         x_spatial = self.spatialAtt(x)
         x = x_channel + x_spatial
 
