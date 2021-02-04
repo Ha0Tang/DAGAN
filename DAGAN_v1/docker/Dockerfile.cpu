@@ -1,0 +1,25 @@
+FROM python:3.8-buster
+
+RUN apt-get update && apt-get install -y git wget
+
+COPY scripts/download_dagan_model.sh /code/scripts/download_dagan_model.sh
+WORKDIR /code
+RUN mkdir -p checkpoints
+RUN sh scripts/download_dagan_model.sh GauGAN_DAGAN_cityscapes
+RUN sh scripts/download_dagan_model.sh GauGAN_DAGAN_ade
+RUN sh scripts/download_dagan_model.sh GauGAN_DAGAN_facades
+RUN sh scripts/download_dagan_model.sh GauGAN_DAGAN_celeba
+
+RUN git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch /tmp/Synchronized-BatchNorm-PyTorch
+
+RUN pip install \
+    dominate>=2.6.0 \
+    dill==0.3.3 \
+    scikit-image==0.18.1 \
+    torch==1.7.0 \
+    torchvision==0.8.0
+
+COPY . /code
+RUN mv /tmp/Synchronized-BatchNorm-PyTorch/sync_batchnorm models/networks/sync_batchnorm
+
+ENTRYPOINT ["python", "test.py", "--checkpoints_dir", "./checkpoints", "--batchSize", "1", "--gpu", "-1"]
