@@ -130,7 +130,7 @@ This source code is inspired by both [GauGAN/SPADE](https://github.com/NVlabs/SP
 **[EdgeGAN](https://github.com/Ha0Tang/EdgeGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
-If you use this code for your research, please cite our papers.
+If you use this code for your research, please consider giving a star :star: and citing our [paper](https://arxiv.org/abs/2008.13024) :t-rex::
 
 DAGAN
 ```
