@@ -128,7 +128,7 @@ For more details, please refer to [this issue](https://github.com/NVlabs/SPADE/i
 This source code is inspired by both [GauGAN/SPADE](https://github.com/NVlabs/SPADE) and [LGGAN](https://github.com/Ha0Tang/LGGAN).
 
 ## Related Projects
-**[EdgeGAN](https://github.com/Ha0Tang/EdgeGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+**[EdgeGAN](https://github.com/Ha0Tang/EdgeGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [DPGAN](https://github.com/Ha0Tang/DPGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
 If you use this code for your research, please consider giving stars :star: and citing our papers :t-rex::
@@ -184,6 +184,28 @@ SelectionGAN
   author={Tang, Hao and Xu, Dan and Yan, Yan and Corso, Jason J and Torr, Philip HS and Sebe, Nicu},
   journal={arXiv preprint arXiv:2002.01048},
   year={2020}
+}
+```
+
+DPGAN
+```
+@article{tang2021layout,
+  title={Layout-to-image translation with double pooling generative adversarial networks},
+  author={Tang, Hao and Sebe, Nicu},
+  journal={IEEE Transactions on Image Processing (TIP)},
+  volume={30},
+  pages={7903--7913},
+  year={2021}
+}
+```
+
+PanoGAN
+```
+@article{wu2022cross,
+  title={Cross-View Panorama Image Synthesis},
+  author={Wu, Songsong and Tang, Hao and Jing, Xiao-Yuan and Zhao, Haifeng and Qian, Jianjun and Sebe, Nicu and Yan, Yan},
+  journal={IEEE Transactions on Multimedia (TMM)},
+  year={2022}
 }
 ```
 
