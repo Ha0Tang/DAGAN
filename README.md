@@ -129,7 +129,7 @@ For more details, please refer to [this issue](https://github.com/NVlabs/SPADE/i
 This source code is inspired by both [GauGAN/SPADE](https://github.com/NVlabs/SPADE) and [LGGAN](https://github.com/Ha0Tang/LGGAN).
 
 ## Related Projects
-**[EdgeGAN](https://github.com/Ha0Tang/EdgeGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [DPGAN](https://github.com/Ha0Tang/DPGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+**[ECGAN](https://github.com/Ha0Tang/ECGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [DPGAN](https://github.com/Ha0Tang/DPGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
 If you use this code for your research, please consider giving stars :star: and citing our papers :t-rex::
@@ -144,13 +144,13 @@ DAGAN
 }
 ```
 
-EdgeGAN
+ECGAN
 ```
-@article{tang2020edge,
-  title={Edge Guided GANs with Semantic Preserving for Semantic Image Synthesis},
-  author={Tang, Hao and Qi, Xiaojuan and Xu, Dan and Torr, Philip HS and Sebe, Nicu},
-  journal={arXiv preprint arXiv:2003.13898},
-  year={2020}
+@article{tang2023edge,
+  title={Edge Guided GANs with Contrastive Learning for Semantic Image Synthesis},
+  author={Tang, Hao and Qi, Xiaojuan and Sun, Guolei, and Xu, Dan and and Sebe, Nicu and Timofte, Radu and Van Gool, Luc},
+  journal={ICLR},
+  year={2023}
 }
 ```
 
