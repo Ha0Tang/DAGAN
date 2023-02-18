@@ -28,7 +28,7 @@
 In [ACM MM 2020](https://2020.acmmm.org/). <br>
 The repository offers the official implementation of our paper in PyTorch.
 
-In the meantime, check out our related CVPR 2020 paper [Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation](https://github.com/Ha0Tang/LGGAN), TIP 2021 paper [Layout-to-Image Translation with Double Pooling Generative Adversarial Networks](https://github.com/Ha0Tang/DPGAN), and Arxiv paper [Edge Guided GANs with Semantic Preserving for Semantic Image Synthesis](https://github.com/Ha0Tang/EdgeGAN).
+In the meantime, check out our related CVPR 2020 paper [Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation](https://github.com/Ha0Tang/LGGAN), and TIP 2021 paper [Layout-to-Image Translation with Double Pooling Generative Adversarial Networks](https://github.com/Ha0Tang/DPGAN).
 
 ### Framework
 <img src='./imgs/method.jpg' width=1200>
